@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VoltFix Electronics | Sales & 30-minute Service</title>
+  <meta name="description" content="Buy mobiles, laptops, TVs and accessories. Get repair service at your door within 30 minutes, anywhere within 20 km of our shop.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container header-row">
+      <a href="#home" class="brand" aria-label="VoltFix Electronics home">
+        <span class="brand-mark" aria-hidden="true">V</span>
+        <span class="brand-name" data-shop="name">VoltFix Electronics</span>
+      </a>
+
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="#categories">Shop</a>
+        <a href="#products">Products</a>
+        <a href="#service">30-min service</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-ghost call-link" href="tel:+919999999999" data-shop-tel>Call shop</a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-badge">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            Technicians available now
+          </p>
+          <h1>Buy it here. If it breaks, we reach you in 30 minutes.</h1>
+          <p class="hero-lead">
+            Mobiles, laptops, TVs and home appliances, sold and repaired by the same team.
+            Anywhere within 20 km of our shop, a technician is at your door in half an hour.
+          </p>
+          <div class="hero-cta">
+            <a href="#book" class="btn btn-primary">Book a repair</a>
+            <a href="#products" class="btn btn-outline">Browse products</a>
+          </div>
+          <ul class="hero-facts">
+            <li><strong>30 min</strong> arrival time</li>
+            <li><strong>20 km</strong> service radius</li>
+            <li><strong>90 days</strong> repair warranty</li>
+          </ul>
+        </div>
+
+        <!-- HERO IMAGES: change the src of any <img> below -->
+        <div class="hero-visual">
+          <figure class="hero-img hero-img-main">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80"
+                 alt="Close-up of an electronic circuit board">
+          </figure>
+          <figure class="hero-img hero-img-a">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80"
+                 alt="Smartphone on a table">
+          </figure>
+          <figure class="hero-img hero-img-b">
+            <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=500&q=80"
+                 alt="Laptop on a work desk">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CATEGORIES ============ -->
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-head">
+          <h2>Shop by category</h2>
+          <p>Everything in stock at the shop, with a bill and warranty on every item.</p>
+        </div>
+
+        <div class="category-grid">
+          <!-- CATEGORY IMAGES: change the src of any <img> -->
+          <a href="#products" class="category-card" data-filter="mobiles">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80" alt="Mobile phones">
+            <span class="category-label">Mobiles</span>
+          </a>
+          <a href="#products" class="category-card" data-filter="laptops">
+            <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=600&q=80" alt="Laptops and computers">
+            <span class="category-label">Laptops</span>
+          </a>
+          <a href="#products" class="category-card" data-filter="tv">
+            <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=600&q=80" alt="Televisions">
+            <span class="category-label">TV &amp; Audio</span>
+          </a>
+          <a href="#products" class="category-card" data-filter="appliances">
+            <img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=600&q=80" alt="Home appliances">
+            <span class="category-label">Appliances</span>
+          </a>
+          <a href="#products" class="category-card" data-filter="accessories">
+            <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=600&q=80" alt="Headphones and accessories">
+            <span class="category-label">Accessories</span>
+          </a>
+          <a href="#service" class="category-card">
+            <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80" alt="Technician repairing a device">
+            <span class="category-label">Repair service</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCTS ============ -->
+    <section class="section section-tint" id="products">
+      <div class="container">
+        <div class="section-head">
+          <h2>Popular right now</h2>
+          <p>Prices are shop prices. Tap "Ask about this" to send us an enquiry on WhatsApp.</p>
+        </div>
+
+        <div class="filter-bar" role="tablist" aria-label="Filter products">
+          <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="chip" data-filter="mobiles" role="tab" aria-selected="false">Mobiles</button>
+          <button class="chip" data-filter="laptops" role="tab" aria-selected="false">Laptops</button>
+          <button class="chip" data-filter="tv" role="tab" aria-selected="false">TV &amp; Audio</button>
+          <button class="chip" data-filter="appliances" role="tab" aria-selected="false">Appliances</button>
+          <button class="chip" data-filter="accessories" role="tab" aria-selected="false">Accessories</button>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+
+          <!-- PRODUCT IMAGES: change the src of any <img> -->
+          <article class="product-card" data-category="mobiles">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80" alt="5G smartphone 128 GB"></div>
+            <div class="product-body">
+              <h3>5G Smartphone, 128 GB</h3>
+              <p class="product-meta">6.5" display, 50 MP camera</p>
+              <p class="price">₹17,999</p>
+              <button class="btn btn-small enquire" data-product="5G Smartphone, 128 GB">Ask about this</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="laptops">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=500&q=80" alt="Student laptop 8 GB RAM"></div>
+            <div class="product-body">
+              <h3>Student Laptop, 8 GB RAM</h3>
+              <p class="product-meta">512 GB SSD, 14" screen</p>
+              <p class="price">₹36,490</p>
+              <button class="btn btn-small enquire" data-product="Student Laptop, 8 GB RAM">Ask about this</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="tv">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80" alt="43 inch smart TV"></div>
+            <div class="product-body">
+              <h3>43" Smart LED TV</h3>
+              <p class="product-meta">4K, built-in streaming apps</p>
+              <p class="price">₹24,990</p>
+              <button class="btn btn-small enquire" data-product='43" Smart LED TV'>Ask about this</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="accessories">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80" alt="Wireless headphones"></div>
+            <div class="product-body">
+              <h3>Wireless Headphones</h3>
+              <p class="product-meta">30-hour battery, noise reduction</p>
+              <p class="price">₹2,499</p>
+              <button class="btn btn-small enquire" data-product="Wireless Headphones">Ask about this</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="appliances">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=500&q=80" alt="Front load washing machine"></div>
+            <div class="product-body">
+              <h3>Front-load Washing Machine</h3>
+              <p class="product-meta">7 kg, 5-star energy rating</p>
+              <p class="price">₹29,900</p>
+              <button class="btn btn-small enquire" data-product="Front-load Washing Machine">Ask about this</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="accessories">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=500&q=80" alt="Fast charger and cable"></div>
+            <div class="product-body">
+              <h3>33 W Fast Charger + Cable</h3>
+              <p class="product-meta">Works with most phones</p>
+              <p class="price">₹799</p>
+              <button class="btn btn-small enquire" data-product="33 W Fast Charger + Cable">Ask about this</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="laptops">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=500&q=80" alt="Business laptop"></div>
+            <div class="product-body">
+              <h3>Business Laptop, 16 GB RAM</h3>
+              <p class="product-meta">1 TB SSD, backlit keyboard</p>
+              <p class="price">₹58,990</p>
+              <button class="btn btn-small enquire" data-product="Business Laptop, 16 GB RAM">Ask about this</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="mobiles">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=500&q=80" alt="Premium smartphone"></div>
+            <div class="product-body">
+              <h3>Premium Smartphone, 256 GB</h3>
+              <p class="product-meta">Flagship camera, fast charging</p>
+              <p class="price">₹64,999</p>
+              <button class="btn btn-small enquire" data-product="Premium Smartphone, 256 GB">Ask about this</button>
+            </div>
+          </article>
+
+        </div>
+        <p class="empty-state" id="emptyState" hidden>Nothing listed in this category yet. Call the shop and we will check stock for you.</p>
+      </div>
+    </section>
+
+    <!-- ============ 30 MIN SERVICE ============ -->
+    <section class="section service" id="service">
+      <div class="container service-grid">
+
+        <div class="service-copy">
+          <h2>Repair at your door in 30 minutes</h2>
+          <p class="service-lead">
+            If you live or work within 20 km of our shop, we send a technician to you.
+            Most repairs (screen, battery, charging port, software, TV and AC faults) are done on the spot.
+          </p>
+
+          <ol class="steps">
+            <li>
+              <h3>Book online or call</h3>
+              <p>Tell us the device and the problem. It takes under a minute.</p>
+            </li>
+            <li>
+              <h3>Technician is dispatched</h3>
+              <p>You get a call with his name and arrival time. He reaches you within 30 minutes.</p>
+            </li>
+            <li>
+              <h3>Fixed, tested, billed</h3>
+              <p>You see the quote before work starts and pay only after it works.</p>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Radius visual: shop in the centre, 20 km edge -->
+        <div class="radius-card">
+          <svg class="radius-svg" viewBox="0 0 320 320" role="img" aria-label="Service area: a 20 kilometre circle around the shop">
+            <circle class="ring ring-outer" cx="160" cy="160" r="140"/>
+            <circle class="ring ring-mid" cx="160" cy="160" r="93"/>
+            <circle class="ring ring-inner" cx="160" cy="160" r="46"/>
+            <circle class="wave" cx="160" cy="160" r="20"/>
+            <circle class="wave wave-2" cx="160" cy="160" r="20"/>
+            <line class="radius-line" x1="160" y1="160" x2="300" y2="160"/>
+            <circle class="shop-dot" cx="160" cy="160" r="9"/>
+            <circle class="you-dot" cx="238" cy="92" r="6"/>
+            <text x="172" y="188" class="svg-label">Our shop</text>
+            <text x="246" y="88" class="svg-label">You</text>
+            <text x="226" y="152" class="svg-label svg-label-strong">20 km</text>
+          </svg>
+
+          <!-- Distance checker -->
+          <div class="checker">
+            <label for="distanceInput">How far are you from our shop? (km)</label>
+            <div class="checker-row">
+              <input type="number" id="distanceInput" min="0" max="500" step="0.5" placeholder="e.g. 12">
+              <button class="btn btn-primary" id="checkDistance" type="button">Check</button>
+            </div>
+            <p class="checker-result" id="distanceResult" aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING FORM ============ -->
+    <section class="section section-dark" id="book">
+      <div class="container book-grid">
+        <div class="book-copy">
+          <h2>Book a technician</h2>
+          <p>
+            Fill in the form and we will call you back within 5 minutes.
+            For anything urgent, call the shop directly.
+          </p>
+          <p class="book-phone"><a href="tel:+919999999999" data-shop-tel>+91 99999 99999</a></p>
+          <p class="book-note">Open every day, 9 am to 9 pm.</p>
+        </div>
+
+        <form class="book-form" id="bookForm" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <span class="error" data-error-for="name"></span>
+          </div>
+
+          <div class="field">
+            <label for="phone">Mobile number</label>
+            <input type="tel" id="phone" name="phone" inputmode="numeric" autocomplete="tel" placeholder="10-digit number" required>
+            <span class="error" data-error-for="phone"></span>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="device">Device</label>
+              <select id="device" name="device" required>
+                <option value="">Choose a device</option>
+                <option>Mobile phone</option>
+                <option>Laptop / computer</option>
+                <option>Television</option>
+                <option>Washing machine</option>
+                <option>Refrigerator</option>
+                <option>Air conditioner</option>
+                <option>Other</option>
+              </select>
+              <span class="error" data-error-for="device"></span>
+            </div>
+
+            <div class="field">
+              <label for="distance">Distance from shop (km)</label>
+              <input type="number" id="distance" name="distance" min="0" max="500" step="0.5" placeholder="e.g. 8" required>
+              <span class="error" data-error-for="distance"></span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="issue">What is the problem?</label>
+            <textarea id="issue" name="issue" rows="3" placeholder="For example: screen cracked, phone not charging" required></textarea>
+            <span class="error" data-error-for="issue"></span>
+          </div>
+
+          <button type="submit" class="btn btn-accent btn-block">Send booking request</button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ TRUST ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>What customers say</h2>
+        </div>
+        <div class="quote-grid">
+          <blockquote class="quote">
+            <p>My laptop stopped working before a presentation. The technician reached my office in 25 minutes and it was working again before lunch.</p>
+            <footer>Priya S., teacher</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>I bought my TV here and the screen had a fault in the second month. They replaced the panel at home, no argument.</p>
+            <footer>Karthik R., shop owner</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>They told me the quote first and it matched the final bill. That honesty is rare for repair shops.</p>
+            <footer>Meena A., homemaker</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER / CONTACT ============ -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand" data-shop="name">VoltFix Electronics</p>
+        <p class="footer-text">Electronics sales and repair service. Technician at your door within 30 minutes, within 20 km.</p>
+      </div>
+      <div>
+        <h3>Visit the shop</h3>
+        <address>
+          12, Main Road, Your Area<br>
+          Chennai, Tamil Nadu 600001<br>
+          Open daily, 9 am to 9 pm
+        </address>
+      </div>
+      <div>
+        <h3>Get in touch</h3>
+        <ul class="footer-links">
+          <li><a href="tel:+919999999999" data-shop-tel>+91 99999 99999</a></li>
+          <li><a href="mailto:hello@voltfix.example">hello@voltfix.example</a></li>
+          <li><a href="https://wa.me/919999999999" target="_blank" rel="noopener" data-shop-wa>WhatsApp us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> VoltFix Electronics. Internship project.</p>
+    </div>
+  </footer>
+
+  <!-- Floating call button (mobile) -->
+  <a class="fab" href="tel:+919999999999" data-shop-tel aria-label="Call the shop">Call</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
